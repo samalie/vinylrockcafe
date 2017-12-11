@@ -1,0 +1,670 @@
+body {
+		  	font-size: auto;
+			line-height: 1.50em;
+			font-family: 'Shadows Into Light Two', cursive;
+			background-color: #f0dfad;
+			color: black;
+			margin: 0;
+    
+		}
+
+h1 {
+	text-align: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #f0dfad;
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 5%;
+	margin-top: 5%;
+    
+
+}
+
+.topnav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 3px 3px;
+  text-decoration: none;
+  font-size: 120%;
+    float:right;
+    margin-right: 5%;
+}
+
+.topnav a:hover {
+  background-color: #f0dfad;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+#slogan {
+	color: #d17e01;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.logo{
+  animation-name: spin;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+
+}
+
+/*forside*/
+
+.right{
+    font-size: 15px;
+    margin-top: 10%;
+    color: black;
+	text-decoration: none;
+	
+        
+}
+
+
+.flex-item {
+	width: 100%;
+    height: 100%;
+    background-color: #d17e01;
+	border-color: #d17e01;
+
+		
+	}
+	
+	.flex-container{
+		display: inline-block;
+		flex-direction: row-reverse;
+		background-color: white;
+		border: 2px solid #d17e01;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+		justify-content:flex-end; 
+        padding: inherit;
+        margin-bottom: 20%;
+	}
+
+
+/*PRISLISTE*/
+    
+table, td, th {    
+    border: 1px solid #f0dfad;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+th, td {
+    padding: 15px;
+}
+
+#menu{
+    font-size: 120%;
+    margin-bottom: 10%;
+}
+
+#vinyler{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+	
+
+
+/*find os*/
+
+.map {
+	width:100%;
+	height:400px;
+	text-align: center;
+	margin-bottom: 15%;
+	display: inline-block;
+}
+
+
+/*om os*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1533 {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #9e9e9e;
+  display: inline-block;
+  font-family: 'Shadows Into Light Two', cursive;
+  font-size: 16px;
+  margin: 35px 7px 10px;
+  max-width: 310px;
+  min-width: 250px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #d17e01;
+    
+}
+
+
+#center {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.snip1533 *,
+.snip1533 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.snip1533 figcaption {
+  padding: 13% 10% 12%;
+}
+
+.snip1533 figcaption:before {
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  color: #d17e01;
+  content: "\f10e";
+  font-family: 'FontAwesome';
+  font-size: 32px;
+  font-style: normal;
+  left: 50%;
+  line-height: 60px;
+  position: absolute;
+  top: -30px;
+  width: 60px;
+}
+
+.snip1533 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0 5px;
+}
+
+.snip1533 h4 {
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.snip1533 blockquote {
+  font-style: italic;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+
+.indryk{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+
+
+/*events*/ 
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.snip1552 {
+  font-family: 'Shadows Into Light Two', cursive;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 350px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.snip1552 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1552 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1552 figcaption {
+  position: absolute;
+  top: 25px;
+  bottom: 25px;
+  left: 25px;
+  right: 25px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.snip1552 h3,
+.snip1552 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1552 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.snip1552 p {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  -webkit-transform: translateX(-25px);
+  transform: translateX(-25px);
+}
+
+.snip1552 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1552:hover > img,
+.snip1552.hover > img {
+  opacity: 0.1;
+}
+
+.snip1552:hover h3,
+.snip1552.hover h3,
+.snip1552:hover p,
+.snip1552.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+#centrum{
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10%;
+}
+
+
+            /*footer*/
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.footer-distributed {
+	background-color: #500f06;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font-family: 'Shadows Into Light Two', cursive;
+	font: bold 16px;
+
+	padding: 55px 50px;
+	margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+        /* Footer left */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h3 span {
+	color: #5383d3;
+}
+
+.footer-distributed .footer-company-name {
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color:#500f06;
+	color: #ffffff;
+	font-size: 35px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 3;
+}
+
+.footer-distributed .footer-center p a {
+	color: #ffffff;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 10%;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+
+.footer-distributed .footer-icons p {
+	margin-top: 10px;
+	color: white;
+
+}
+	
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #3b5998;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*mediaquery*/
+
+@media (max-width: 880px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+		font-family: 'Shadows Into Light Two', cursive;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		
+		width: 100%;
+		margin-bottom: 40px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+	}
+
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+
+	
+}
+
+/*mobil*/
+
+@media screen and (max-width: 768px) {
+  .topnav a {display: none;}
+  .topnav a.icon {
+    display: block;
+	 margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
+#vinkel{
+        display: block;
+        width: 10%;
+        height: auto;
+        position: relative;
+        z-index: 0;
+    
+    }
+
+#vinkel img {
+    width: 100%;
+    height: auto;
+    margin-top: 47%;
+}
+
+.logo{
+    z-index: 3;
+}
+
+@media only screen and (max-width : 768px) {
+	
+	
+	h1 {
+		text-align: center;
+		font-size: 150%;
+	
+	}
+
+	p {
+		text-align: inherit;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#dato{
+		text-align: center;
+		padding: 10%;
+		font-size: 120%;
+		font: bold;
+	}
+	
+	.flex-item {
+	width: 100px;
+    height: 110px;
+    background-color: #d17e01;
+	border-color: #d17e01;
+
+		
+	}
+	
+	.flex-container{
+		display: flex;
+		flex-direction: row-reverse;
+		background-color: white;
+		border: 2px solid #d17e01;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+		justify-content:flex-end; 
+        margin-bottom: 5%;
+	
+
+	}
+
+    iframe{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+   
+    #slogan {
+        
+        margin-top:5%;
+        padding-bottom: 2%;
+        padding-top: 1%;
+        font-size: 20px;
+ 
+    }
+
+    .flecontainer, flex-item{
+          width: 50%;
+      }
+    
+
+    .headerb{
+        background-image: url(streg.png);
+    
+    }    
+    
+    
+}
+.streg{
+        display: block;
+        width: 90%;
+        margin-left:10%;
+        margin-bottom: -39px;
+            position: relative;
+        z-index: 2;
+    }
+/* ----------- Desktop ----------- */
+@media screen and (max-width: 768px) {
+    #vinkel {
+        display: none;
+    }
+    .streg {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+	
+	@media screen and (min-width: 768px) {
+	
+         iframe{
+        width: 100%;  
+          
+      }  
+    
+      .flecontainer, flex-item{
+          width: 100%;
+          display: inline-block;
+        
+      }
+      
+      .headerb{
+          background-image: url(/images/headerbillede%202.jpg);
+      }  
+    
+    .logo {
+        margin-bottom: -13%;
+        position: relative;
+        z-index: 3;
+        margin-top: 2%;
+		padding: 1%
+    }
+    
+        .grid{
+            width: 50%;
+        }
+   
+    
+    }
+
+
+	
