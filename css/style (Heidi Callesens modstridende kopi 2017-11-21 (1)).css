@@ -1,0 +1,405 @@
+body {
+		  	font-size: auto;
+			line-height: 1.50em;
+			font-family: 'Shadows Into Light Two', cursive;
+			background-color: #f0dfad;
+			color: black;
+			margin: 0;
+    
+		}
+
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    transition: 0.5s;
+    align-content: right;
+
+}
+
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/*Events*/
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.snip1552 {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 230px;
+  max-width: 315px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #fff;
+    margin:2%;
+}
+
+.snip1552 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1552 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1552 figcaption {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.snip1552 h3,
+.snip1552 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1552 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.snip1552 p {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  padding-left: 15px;
+  -webkit-transform: translateX(-25px);
+  transform: translateX(-25px);
+}
+
+.snip1552 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1552:hover > img,
+.snip1552.hover > img {
+  opacity: 0.1;
+}
+
+.snip1552:hover h3,
+.snip1552.hover h3,
+.snip1552:hover p,
+.snip1552.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+#googleMap {
+	width:100%;
+	height:400px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#slogan {
+	color: #d17e01;
+}
+
+.logo {
+	margin: 3%;
+}
+
+
+/*footer*/
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.footer-distributed {
+	background-color: #500f06;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font-family: 'Shadows Into Light Two', cursive;
+	font: bold 16px;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h3 span {
+	color: #5383d3;
+}
+
+.footer-distributed .footer-company-name {
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color:#500f06;
+	color: #ffffff;
+	font-size: 35px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 3;
+}
+
+.footer-distributed .footer-center p a {
+	color: #ffffff;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons p {
+	margin-top: 25px;
+	color: white;
+
+}
+	
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #3b5998;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/*mediaquery*/
+
+@media (max-width: 880px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+		font-family: 'Shadows Into Light Two', cursive;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		
+		width: 100%;
+		margin-bottom: 40px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center;
+	}
+
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+
+	
+}
+
+/*mobil*/
+@media only screen and (max-width : 768px) {
+	
+	
+	.overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+}
+	
+	span {
+	float: right;
+	padding: 10%;
+	
+	}
+	
+	h1 {
+		text-align: center;
+		font-size: 150%;
+	
+	}
+
+	p {
+		text-align: inherit;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#p{
+		text-align: center;
+	}
+	
+	.flex-item {
+	width: 100px;
+    height: 100px;
+    background-color: #d17e01;
+	}
+	
+	.flex-container{
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		border-color: #d17e01;
+		border-width:inherit;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+
+	}
+    iframe{
+        width: 100%;
+        
+    }
+    #slogan {margin:0%}
+    
+/* ----------- Desktop ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+      
+          
+          
+      }  
+    
+    }
+
+
+	

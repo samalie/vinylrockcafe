@@ -1,0 +1,224 @@
+body {
+		  	font-size: auto;
+			line-height: 1.50em;
+			font-family: 'Shadows Into Light Two', cursive;
+			background-color: #f0dfad;
+			color: black;
+			margin: 0;
+    
+		}
+		
+
+#slogan {
+	color: #d17e01;
+}
+
+.logo {
+	margin: 5%;
+}
+
+/*footer*/
+
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.footer-distributed {
+	background-color: #500f06;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px, sans-serif;
+	font-family: 'Shadows Into Light Two' cursive;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+.footer-distributed h3 span {
+	color: #5383d3;
+}
+
+.footer-distributed .footer-company-name {
+	color: #ffff;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+    display: flex-wrap;
+    align-content: center;
+    
+    
+}
+
+.footer-distributed .footer-center i {
+	background-color: black;
+	color: #ffffff;
+	font-size: 35px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 15px;
+	line-height: 35px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 3;
+}
+
+.footer-distributed .footer-center p a {
+	color: #ffff;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+}
+
+
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: black;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons p {
+	color: white;
+}
+
+/*mediaquery footer*/
+
+@media (max-width: 880px) {
+
+	.footer-distributed {
+	font: bold 16px, sans-serif;
+	font-family: 'Shadows Into Light Two' cursive;
+
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+
+}
+
+/*mobil*/
+@media only screen and (max-width : 767px) {
+	
+	h1 {
+		text-align: center;
+		font-size: 100%;
+	
+	}
+
+	p {
+		text-align: inherit;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	#p{
+		text-align: center;
+	}
+	
+	.flex-item {
+	width: 100px;
+    height: 100px;
+    background-color: #d17e01;
+	}
+	
+	.flex-container{
+		display: flex;
+		flex-direction: column;
+		background-color: white;
+		border-color: #d17e01;
+		border-width:inherit;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+
+	}
+
+}
+	
